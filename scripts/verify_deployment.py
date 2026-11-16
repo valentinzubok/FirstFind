@@ -9,7 +9,7 @@ import sys
 import urllib.request
 
 RPC = "https://studio-dev.genlayer.com/api"
-ADDRESS = "0x225c447b8f8CB573f87742E8Fa27379F1a45b399"
+ADDRESS = "0xA4fD941728C77cbb8D860a165Ab4B6e7EeCb2A1E"
 SOURCE = pathlib.Path(__file__).resolve().parents[1] / "contracts" / "FirstFind.py"
 
 

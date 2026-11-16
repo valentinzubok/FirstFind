@@ -27,7 +27,7 @@ jobs:
       - name: Build console
         working-directory: web
         env:
-          NEXT_BASE_PATH: /ScoreBond
+          NEXT_BASE_PATH: /FirstFind
         run: |
           npm ci
           npm run build

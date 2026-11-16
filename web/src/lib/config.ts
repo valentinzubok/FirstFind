@@ -1,6 +1,6 @@
 /** Live FirstFind deploy on GenLayer Studio Dev (chain 61997). Override via env. */
 export const CONTRACT_ADDRESS = (process.env.NEXT_PUBLIC_FIRSTFIND_ADDRESS ||
-  "0x225c447b8f8CB573f87742E8Fa27379F1a45b399") as `0x${string}`;
+  "0xA4fD941728C77cbb8D860a165Ab4B6e7EeCb2A1E") as `0x${string}`;
 
 /** Studio Dev / Studio Next — chain ID 61997. */
 export const CHAIN_ID = 61997;
