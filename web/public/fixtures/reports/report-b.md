@@ -1,0 +1,1 @@
+Reentrancy problem: the withdraw function in the vault pays out first and only afterwards records the new balance. An attacker contract can call back into withdraw during the payment and drain more than it deposited. The balance write has to come before the transfer.

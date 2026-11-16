@@ -1,0 +1,1 @@
+Bug in the escrow demo vault: deposit() rounds the fee up on every deposit, so the vault keeps a little dust each time and the sum of all user balances ends below the funds the vault holds. Fix: round the fee down and credit the remainder to the depositor.

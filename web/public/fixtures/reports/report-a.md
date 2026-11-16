@@ -1,0 +1,1 @@
+Bug in the escrow demo vault: withdraw() sends the funds to the caller before it writes the new balance, so a contract that receives the funds can call withdraw() again and be paid twice. Fix: update the balance first, send after.
